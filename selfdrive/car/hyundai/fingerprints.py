@@ -1664,9 +1664,11 @@ FW_VERSIONS = {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00SG2HMFC  AT USA LHD 1.01 1.08 99211-AT000 220531',
       b'\xf1\x00SG2HMFC  AT USA LHD 1.01 1.09 99211-AT000 220801',
+      b'\xf1\x00SG2HMFC  AT EUR LHD 1.01 1.09 99211-AT000 220801',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00SG2_ RDR -----      1.00 1.01 99110-AT000         ',
+      b'\xf1\x8799110AT000\xf1\x00SG2_ RDR -----      1.00 1.01 99110-AT000         ',
     ],
   },
   CAR.GENESIS_GV80: {
